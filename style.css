@@ -1,0 +1,132 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #F0F0F5;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1, h2, h3 {
+  color: #3A3A55;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  line-height: normal;
+  text-align: center;
+}
+a. {
+  color: #4A6FA5;
+  text-decoration: none;
+}
+a:hover {
+  color: #395A8B;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+.intro {
+text-align: center;
+margin-bottom: 2rem;
+}
+.intro img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: auto;
+}
+.intro p {
+
+}
+
+.btn {
+display: inline-block;
+background-color: #4A6FA5;
+color: #FFFFFF;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+transition: background-color 0.3s ease;
+text-align: center;
+}
+
+.btn:hover {
+  background-color: #395A8B;
+  color: #FFFFFF;
+}
+
+.card {
+  background-color: #FFFFFF;
+  color: #333333;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+}
+
+footer {
+  background-color: #2E2E3E;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 24px;
+  color: #FFF;
+  margin-bottom: 0.5rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  }
+
+footer ul li {
+  margin: 0 1rem;
+}
+
+footer ul li a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #4A6FA5;
+}
